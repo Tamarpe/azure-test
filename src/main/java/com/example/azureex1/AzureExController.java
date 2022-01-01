@@ -11,8 +11,8 @@ public class AzureExController {
         return "Testing with Azure";
     }
 
-    @RequestMapping("/page")
-     public String goodbye() {
-        return "Checking auto deploy 2";
+    @RequestMapping("/msg")
+     public String message() {
+        return "Some message";
     }
 }
