@@ -13,6 +13,6 @@ public class AzureExController {
 
     @RequestMapping("/page")
      public String goodbye() {
-        return "Another page";
+        return "Checking auto deploy";
     }
 }
